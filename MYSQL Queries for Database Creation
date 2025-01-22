@@ -1,0 +1,11 @@
+# Mysql Queries For Databases Creation
+CREATE DATABASE hospital_db;
+
+USE hospital_db;
+
+CREATE TABLE patient (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    disease VARCHAR(100)
+);
